@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="admin" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/ico" />
+
+  <title>LEAP2GENIUS</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+
+  <meta name="theme-color" content="#853C92">
+  <meta name="msapplication-navbutton-color" content="#853C92">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#853C92">
+
+  <style>
+    .__show-on-load {
+      transition: opacity 1s cubic-bezier(0.6, 0.1, 0.15, 1);
+    }
+
+    .__show-on-load.__hidden {
+      opacity: 0;
+    }
+  </style>
+
+  <link rel="prefetch" href="fonts/AvenirNext-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="prefetch" href="fonts/AvenirNext-BoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="prefetch" href="fonts/AvenirNext-DemiBold.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="prefetch" href="fonts/AvenirNext-Italic.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="prefetch" href="fonts/AvenirNext-Medium.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="prefetch" href="fonts/AvenirNext-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
+
+  <link rel="prefetch" href="styles.min.css" as="style">
+  <link rel="prefetch" href="script.min.js" as="script">
+
+  <link rel="stylesheet" href="styles.min.css?rev=fa418158618c8dc7adff94f9e3848b8c"
+    onload="this.onload=null;this.rel='stylesheet'" />
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header class="header __show-on-load __hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3 col-12">
+            <a href="index.html" class="logo">
+              <img src="img/logo.svg" alt="">
+            </a>
+          </div>
+          <div class="col-xs-9 col-12">
+            <div class="header-btns-panel">
+              <a href="take-assessment.html" class="btn-link __border-theme">
+                <span class="btn-link-title">Take Assessment</span>
+              </a>
+              <a href="#" class="btn-link __border-theme">
+                <span class="btn-link-title">Sign up for Workshops</span>
+              </a>
+              <button class="toggle-menu">
+                <span class="toggle-menu-wrap">
+                  <span class="toggle-menu-wrap-arrow"></span>
+                  <span class="toggle-menu-wrap-arrow"></span>
+                  <span class="toggle-menu-wrap-arrow"></span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <nav class="nav">
+              <ul class="main-menu nav-list">
+                <li class="menu-item">
+                  <a href="about.html">Meet our Founder</a>
+                </li>
+                <li class="menu-item">
+                  <a href="genius-method.html">Discover the Genius Method</a>
+                </li>
+                <li class="menu-item">
+                  <a href="discover-personal.html">Discover Personal Genius</a>
+                </li>
+                <li class="menu-item">
+                  <a href="discover-corporate.html">Discover Corporate Genius</a>
+                </li>
+                <li class="menu-item">
+                  <a href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="menu-item">
+                  <a href="contact-us.html">Contact Us</a>
+                </li>
+              </ul>
+              <button class="close-menu"></button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section folder-section __inner-page-theme __show-on-load __hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="title-1 __white-color section-title">Checkout</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section checkout __show-on-load __hidden" id="checkout-page">
+      <div class="checkout-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <div class="checkout-form">
+                <h3 class="title-3">Billing details</h3>
+                <form class="form-delivery">
+                  <div class="form-delivery_top">
+                    <div class="form-box">
+                      <label class="input-container">
+                        <span class="input-label">First name</span>
+                        <input type="text" name="firstName" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                      <label class="input-container">
+                        <span class="input-label">Last name</span>
+                        <input type="text" name="lastName" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                    </div>
+                    <label class="input-container">
+                      <span class="input-label">Address line 1</span>
+                      <input type="text" name="address1" class="input-item">
+                      <span class="input-message">Sorry, this field is required</span>
+                    </label>
+                    <label class="input-container">
+                      <span class="input-label">Address line 2</span>
+                      <input type="text" name="address2" class="input-item">
+                      <span class="input-message">Sorry, this field is required</span>
+                    </label>
+                    <div class="form-box">
+                      <label class="input-container">
+                        <span class="input-label">City</span>
+                        <input type="text" name="City" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                      <label class="input-container">
+                        <span class="input-label">State/Region</span>
+                        <input type="text" name="stateRegion" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                    </div>
+                    <div class="form-box">
+                      <label class="input-container">
+                        <span class="input-label">Zip</span>
+                        <input type="text" name="zip" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                      <label class="input-container">
+                        <span class="input-label">Country</span>
+                        <input type="text" name="country" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                    </div>
+                    <label class="input-container">
+                      <span class="input-label">Phone number:</span>
+                      <input type="text" name="country" class="input-item">
+                      <span class="input-message">Sorry, this field is required</span>
+                    </label>
+                    <label class="checkbox-container" for="deliveryCheck">
+                      <input type="checkbox" name="checkbox" class="input-item" id="deliveryCheck">
+                      <span class="input-checkbox"></span>
+                      <p>click here if the billing address is the same as shipping address</p>
+                    </label>
+                  </div>
+                  <label class="checkbox-container checkbox-container_lg" for="deliveryShip">
+                    <input type="checkbox" name="checkbox" class="input-item" id="deliveryShip">
+                    <span class="input-checkbox"></span>
+                    <p>Ship to a different address?</p>
+                  </label>
+                  <div class="form-delivery_bottom" id="delivery-form">
+                    <div class="form-box">
+                      <label class="input-container">
+                        <span class="input-label">First name</span>
+                        <input type="text" name="firstName" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                      <label class="input-container">
+                        <span class="input-label">Last name</span>
+                        <input type="text" name="lastName" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                    </div>
+                    <label class="input-container">
+                      <span class="input-label">Address line 1</span>
+                      <input type="text" name="address1" class="input-item">
+                      <span class="input-message">Sorry, this field is required</span>
+                    </label>
+                    <label class="input-container">
+                      <span class="input-label">Address line 2</span>
+                      <input type="text" name="address2" class="input-item">
+                      <span class="input-message">Sorry, this field is required</span>
+                    </label>
+                    <div class="form-box">
+                      <label class="input-container">
+                        <span class="input-label">City</span>
+                        <input type="text" name="City" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                      <label class="input-container">
+                        <span class="input-label">State/Region</span>
+                        <input type="text" name="stateRegion" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                    </div>
+                    <div class="form-box">
+                      <label class="input-container">
+                        <span class="input-label">Zip</span>
+                        <input type="text" name="zip" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                      <label class="input-container">
+                        <span class="input-label">Country</span>
+                        <input type="text" name="country" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                    </div>
+                    <label class="input-container">
+                      <span class="input-label">Phone number:</span>
+                      <input type="text" name="country" class="input-item">
+                      <span class="input-message">Sorry, this field is required</span>
+                    </label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div class="checkout-pay">
+                <h3>You Order</h3>
+                <table class="checkout-total">
+                  <tr>
+                    <td colspan="2">Product</td>
+                    <td>Total</td>
+                  </tr>
+                  <tr>
+                    <td>Genius Blueprint Assessment </td>
+                    <td>
+                      <div class="count-control-wrap">
+                        <button class="btn-count-control __minus">-</button>
+                        <input
+                                type="number"
+                                id="product-count"
+                                data-step="1"
+                                data-min="1"
+                                data-max="99"
+                                value="1"
+                                class="input-item __count">
+                        <button class="btn-count-control __plus">+</button>
+                      </div>
+                    </td>
+                    <td>$<span id="price-value">150</span></td>
+                  </tr>
+                </table>
+                <form class="form-coupon" id="get-coupone-form">
+                  <label class="input-container">
+                    <input type="text" name="coupon" class="input-item" placeholder="Enter Your Coupon">
+                    <span class="input-message">Sorry, this field is required</span>
+                  </label>
+                  <div class="sale-wrap">
+                    <p class="sale-value">-<span id="sale-value">50</span>%</p>
+                  </div>
+                  <div class="btns-group">
+                    <button class="btn-link __solid-theme __gradient-theme" data-bg-color="#2269b3"
+                      data-radial-gradient-color="#853c92" data-size="100%">
+                      <span class="btn-link-title">Apply</span>
+                    </button>
+                  </div>
+                </form>
+                <div class="total-cost">
+                  <p>Total cost<span>$<strong id="price-value-total">120</strong></span></p>
+                </div>
+                <div class="checkout-methods">
+                  <h3>Payment Methods</h3>
+                  <ul class="methods-list">
+                    <li><img src="img/icons/paypal-icon.png" alt="paypal"></li>
+                  </ul>
+                  <form class="form-card">
+                    <label class="input-container">
+                      <span class="input-label">Credit Card Number<span>*</span></span>
+                      <input type="number" name="cardNumber" class="input-item js-number-card" maxlength="16"
+                        minlength="16" pattern="^(\d{16}|\d{16})$">
+                      <span class="input-message">Sorry, this field is required</span>
+                    </label>
+                    <label class="input-container">
+                      <span class="input-label">Name on Card<span>*</span></span>
+                      <input type="text" name="cardName" class="input-item">
+                      <span class="input-message">Sorry, this field is required</span>
+                    </label>
+                    <div class="form-box">
+                      <label class="input-container">
+                        <span class="input-label">Expiration Date<span>*</span></span>
+                        <input type="date" name="cardDate" class="input-item">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                      <label class="input-container">
+                        <span class="input-label">CVV<span>*</span></span>
+                        <input type="number" name="cardCvv" class="input-item js-number-cvv" maxlength="3"
+                          minlength="3" pattern="^(\d{3}|\d{3})$">
+                        <span class="input-message">Sorry, this field is required</span>
+                      </label>
+                    </div>
+                    <div class="btns-group">
+                      <button class="btn-link __solid-theme __gradient-theme" data-bg-color="#2269b3"
+                        data-radial-gradient-color="#853c92" data-size="100%">
+                        <span class="btn-link-title">Complete</span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <br />
+              <button id="test-json">Check keys</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 col-xs-12">
+            <div class="footer-nav">
+              <ul class="footer-nav-list">
+                <li class="footer-nav-list-item">
+                  <p class="footer-nav-title">Products</p>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="genius-blueprint-assessment.html" class="nav-link">Genius Blueprint Assessment</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="genius-method.html" class="nav-link">The Genius Method</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="faq.html" class="nav-link">FAQ</a>
+                </li>
+              </ul>
+              <ul class="footer-nav-list">
+                <li class="footer-nav-list-item">
+                  <p class="footer-nav-title">Resources</p>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="contact-us.html" class="nav-link">Contact us</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="policy.html" class="nav-link">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-5 col-xs-12">
+            <ul class="social-list">
+              <li class="social-list-item">
+                <a href="https://www.facebook.com/pg/activategenius/about/?ref=page_internal" target="_blank"
+                  class="social-link"></a>
+              </li>
+              <li class="social-list-item">
+                <a href="https://www.linkedin.com/feed/" target="_blank" class="social-link"></a>
+              </li>
+              <li class="social-list-item">
+                <a href="mailto:test@gmail.com" target="_blank" class="social-link"></a>
+              </li>
+            </ul>
+            <div class="subscribe-wrap">
+              <form>
+                <div class="subscribe-wrap-title">
+                  <p>Sign up for our newsletter</p>
+                </div>
+                <div class="input-container">
+                  <input type="email" class="input-item" placeholder="Please add email address here">
+                  <button class="btn-link __solid-theme __white-theme">
+                    <span class="btn-link-title">Submit</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="copyright">
+              <p>&copy; Leap2genius 2019 Aliki Helman. All rights reserved | Terms and Conditions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="modal" id="thank-subscribing">
+    <div class="modal-wrap">
+      <div class="newsletter-thank-wrap">
+        <button class="close-thank-btn">
+          <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.5022 14L8.50615 9.716L5.42615 14H0.106153L5.67815 6.692L0.638153 0.0559993H5.98615L8.59015 3.78L11.2222 0.0559993H16.4022L11.3902 6.692L16.9062 14H11.5022Z"
+              fill="#333333" />
+          </svg>
+        </button>
+        <figure class="thank-content">
+          <h2 class="title-2">Thank you for subscribing to our newsletter.</h2>
+          <h3 class="title-3">Check your inbox for Genius sparks!</h3>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="script.min.js?rev=fa418158618c8dc7adff94f9e3848b8c"></script>
+
+</body>
+
+</html>
